@@ -26,10 +26,12 @@ SECRET_KEY = 'django-insecure-+&jxy-8!g+h!6uu(!dn@cu0p4xsxct9^wfv3gov^&^ccg!29tx
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    ".onrender.com",   # allows any subdomain of render.com
+    "students-management-9.onrender.com",  # your current domain
+    ".onrender.com",                       # allow any other render subdomains
     "localhost",
     "127.0.0.1",
 ]
+
 
     
 
@@ -128,6 +130,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 
 
 
